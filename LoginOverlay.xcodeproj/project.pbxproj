@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E30B5321AB8D5FC001F80CB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E30B5311AB8D5FC001F80CB /* Cocoa.framework */; };
+		9E30B53C1AB8D5FC001F80CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B53A1AB8D5FC001F80CB /* InfoPlist.strings */; };
+		9E30B53E1AB8D5FC001F80CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E30B53D1AB8D5FC001F80CB /* main.m */; };
+		9E30B5421AB8D5FC001F80CB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5401AB8D5FC001F80CB /* Credits.rtf */; };
+		9E30B5451AB8D5FC001F80CB /* libpython2.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E30B5441AB8D5FC001F80CB /* libpython2.7.dylib */; };
+		9E30B5471AB8D5FC001F80CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5461AB8D5FC001F80CB /* main.py */; };
+		9E30B5491AB8D5FC001F80CB /* AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5481AB8D5FC001F80CB /* AppDelegate.py */; };
+		9E30B54C1AB8D5FC001F80CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E30B52E1AB8D5FC001F80CB /* LoginOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E30B5311AB8D5FC001F80CB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9E30B5341AB8D5FC001F80CB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9E30B5351AB8D5FC001F80CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9E30B5361AB8D5FC001F80CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E30B5391AB8D5FC001F80CB /* LoginOverlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginOverlay-Info.plist"; sourceTree = "<group>"; };
+		9E30B53B1AB8D5FC001F80CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E30B53D1AB8D5FC001F80CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E30B53F1AB8D5FC001F80CB /* LoginOverlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginOverlay-Prefix.pch"; sourceTree = "<group>"; };
+		9E30B5411AB8D5FC001F80CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9E30B5441AB8D5FC001F80CB /* libpython2.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpython2.7.dylib; path = /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config/libpython2.7.dylib; sourceTree = "<absolute>"; };
+		9E30B5461AB8D5FC001F80CB /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		9E30B5481AB8D5FC001F80CB /* AppDelegate.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
+		9E30B54B1AB8D5FC001F80CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E30B52B1AB8D5FC001F80CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E30B5451AB8D5FC001F80CB /* libpython2.7.dylib in Frameworks */,
+				9E30B5321AB8D5FC001F80CB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E30B5251AB8D5FC001F80CB = {
+			isa = PBXGroup;
+			children = (
+				9E30B5371AB8D5FC001F80CB /* LoginOverlay */,
+				9E30B5301AB8D5FC001F80CB /* Frameworks */,
+				9E30B52F1AB8D5FC001F80CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E30B52F1AB8D5FC001F80CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E30B52E1AB8D5FC001F80CB /* LoginOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E30B5301AB8D5FC001F80CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E30B5311AB8D5FC001F80CB /* Cocoa.framework */,
+				9E30B5331AB8D5FC001F80CB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E30B5331AB8D5FC001F80CB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E30B5341AB8D5FC001F80CB /* AppKit.framework */,
+				9E30B5351AB8D5FC001F80CB /* CoreData.framework */,
+				9E30B5361AB8D5FC001F80CB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9E30B5371AB8D5FC001F80CB /* LoginOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				9E30B5461AB8D5FC001F80CB /* main.py */,
+				9E30B5481AB8D5FC001F80CB /* AppDelegate.py */,
+				9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */,
+				9E30B5431AB8D5FC001F80CB /* SharedLibraries */,
+				9E30B5381AB8D5FC001F80CB /* Supporting Files */,
+			);
+			path = LoginOverlay;
+			sourceTree = "<group>";
+		};
+		9E30B5381AB8D5FC001F80CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E30B5391AB8D5FC001F80CB /* LoginOverlay-Info.plist */,
+				9E30B53A1AB8D5FC001F80CB /* InfoPlist.strings */,
+				9E30B53D1AB8D5FC001F80CB /* main.m */,
+				9E30B53F1AB8D5FC001F80CB /* LoginOverlay-Prefix.pch */,
+				9E30B5401AB8D5FC001F80CB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E30B5431AB8D5FC001F80CB /* SharedLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				9E30B5441AB8D5FC001F80CB /* libpython2.7.dylib */,
+			);
+			name = SharedLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E30B52D1AB8D5FC001F80CB /* LoginOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E30B54F1AB8D5FC001F80CB /* Build configuration list for PBXNativeTarget "LoginOverlay" */;
+			buildPhases = (
+				9E30B52A1AB8D5FC001F80CB /* Sources */,
+				9E30B52B1AB8D5FC001F80CB /* Frameworks */,
+				9E30B52C1AB8D5FC001F80CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginOverlay;
+			productName = LoginOverlay;
+			productReference = 9E30B52E1AB8D5FC001F80CB /* LoginOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E30B5261AB8D5FC001F80CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Steve Küng";
+			};
+			buildConfigurationList = 9E30B5291AB8D5FC001F80CB /* Build configuration list for PBXProject "LoginOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E30B5251AB8D5FC001F80CB;
+			productRefGroup = 9E30B52F1AB8D5FC001F80CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E30B52D1AB8D5FC001F80CB /* LoginOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E30B52C1AB8D5FC001F80CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E30B5471AB8D5FC001F80CB /* main.py in Resources */,
+				9E30B54C1AB8D5FC001F80CB /* MainMenu.xib in Resources */,
+				9E30B5491AB8D5FC001F80CB /* AppDelegate.py in Resources */,
+				9E30B53C1AB8D5FC001F80CB /* InfoPlist.strings in Resources */,
+				9E30B5421AB8D5FC001F80CB /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E30B52A1AB8D5FC001F80CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E30B53E1AB8D5FC001F80CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E30B53A1AB8D5FC001F80CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E30B53B1AB8D5FC001F80CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E30B5401AB8D5FC001F80CB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E30B5411AB8D5FC001F80CB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E30B54B1AB8D5FC001F80CB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E30B54D1AB8D5FC001F80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E30B54E1AB8D5FC001F80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9E30B5501AB8D5FC001F80CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginOverlay/LoginOverlay-Prefix.pch";
+				INFOPLIST_FILE = "LoginOverlay/LoginOverlay-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E30B5511AB8D5FC001F80CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginOverlay/LoginOverlay-Prefix.pch";
+				INFOPLIST_FILE = "LoginOverlay/LoginOverlay-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E30B5291AB8D5FC001F80CB /* Build configuration list for PBXProject "LoginOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E30B54D1AB8D5FC001F80CB /* Debug */,
+				9E30B54E1AB8D5FC001F80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E30B54F1AB8D5FC001F80CB /* Build configuration list for PBXNativeTarget "LoginOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E30B5501AB8D5FC001F80CB /* Debug */,
+				9E30B5511AB8D5FC001F80CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E30B5261AB8D5FC001F80CB /* Project object */;
+}
