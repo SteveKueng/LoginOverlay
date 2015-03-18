@@ -17,6 +17,8 @@
 		9E30B54C1AB8D5FC001F80CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */; };
 		9E46C6591AB8F2A5004AF769 /* LLBorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */; };
 		9E46C65C1AB95659004AF769 /* LOWindowController.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E46C65B1AB95659004AF769 /* LOWindowController.py */; };
+		9E561FF41ABA10CB005997C0 /* StatusWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E561FF11ABA10CB005997C0 /* StatusWindow.m */; };
+		9E561FF51ABA10CB005997C0 /* StatusWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E561FF31ABA10CB005997C0 /* StatusWindowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBorderlessWindow.m; sourceTree = "<group>"; };
 		9E46C65A1AB8F2B1004AF769 /* LLBorderlessWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBorderlessWindow.h; sourceTree = "<group>"; };
 		9E46C65B1AB95659004AF769 /* LOWindowController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LOWindowController.py; sourceTree = "<group>"; };
+		9E561FF01ABA10CB005997C0 /* StatusWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusWindow.h; sourceTree = "<group>"; };
+		9E561FF11ABA10CB005997C0 /* StatusWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusWindow.m; sourceTree = "<group>"; };
+		9E561FF21ABA10CB005997C0 /* StatusWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusWindowView.h; sourceTree = "<group>"; };
+		9E561FF31ABA10CB005997C0 /* StatusWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusWindowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 				9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */,
 				9E46C65A1AB8F2B1004AF769 /* LLBorderlessWindow.h */,
 				9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */,
+				9E561FF01ABA10CB005997C0 /* StatusWindow.h */,
+				9E561FF11ABA10CB005997C0 /* StatusWindow.m */,
+				9E561FF21ABA10CB005997C0 /* StatusWindowView.h */,
+				9E561FF31ABA10CB005997C0 /* StatusWindowView.m */,
 				9E30B5431AB8D5FC001F80CB /* SharedLibraries */,
 				9E30B5381AB8D5FC001F80CB /* Supporting Files */,
 			);
@@ -190,8 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E561FF51ABA10CB005997C0 /* StatusWindowView.m in Sources */,
 				9E46C6591AB8F2A5004AF769 /* LLBorderlessWindow.m in Sources */,
 				9E30B53E1AB8D5FC001F80CB /* main.m in Sources */,
+				9E561FF41ABA10CB005997C0 /* StatusWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
