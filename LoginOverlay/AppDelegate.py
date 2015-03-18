@@ -7,9 +7,13 @@
 #  Copyright (c) 2015 Steve Küng. All rights reserved.
 #
 
+from objc import IBOutlet
 from Foundation import *
 from AppKit import *
 
 class AppDelegate(NSObject):
+    
+    backdropWindow = IBOutlet()
+    
     def applicationDidFinishLaunching_(self, sender):
-        NSLog("Application did finish launching.")
+        self.backdropWindow.showBackdrop()

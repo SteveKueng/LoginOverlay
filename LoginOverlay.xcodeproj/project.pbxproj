@@ -15,6 +15,8 @@
 		9E30B5471AB8D5FC001F80CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5461AB8D5FC001F80CB /* main.py */; };
 		9E30B5491AB8D5FC001F80CB /* AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5481AB8D5FC001F80CB /* AppDelegate.py */; };
 		9E30B54C1AB8D5FC001F80CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */; };
+		9E46C6591AB8F2A5004AF769 /* LLBorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */; };
+		9E46C65C1AB95659004AF769 /* LOWindowController.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E46C65B1AB95659004AF769 /* LOWindowController.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		9E30B5461AB8D5FC001F80CB /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		9E30B5481AB8D5FC001F80CB /* AppDelegate.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
 		9E30B54B1AB8D5FC001F80CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBorderlessWindow.m; sourceTree = "<group>"; };
+		9E46C65A1AB8F2B1004AF769 /* LLBorderlessWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBorderlessWindow.h; sourceTree = "<group>"; };
+		9E46C65B1AB95659004AF769 /* LOWindowController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LOWindowController.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				9E30B5461AB8D5FC001F80CB /* main.py */,
+				9E46C65B1AB95659004AF769 /* LOWindowController.py */,
 				9E30B5481AB8D5FC001F80CB /* AppDelegate.py */,
 				9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */,
+				9E46C65A1AB8F2B1004AF769 /* LLBorderlessWindow.h */,
+				9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */,
 				9E30B5431AB8D5FC001F80CB /* SharedLibraries */,
 				9E30B5381AB8D5FC001F80CB /* Supporting Files */,
 			);
@@ -171,6 +179,7 @@
 				9E30B5491AB8D5FC001F80CB /* AppDelegate.py in Resources */,
 				9E30B53C1AB8D5FC001F80CB /* InfoPlist.strings in Resources */,
 				9E30B5421AB8D5FC001F80CB /* Credits.rtf in Resources */,
+				9E46C65C1AB95659004AF769 /* LOWindowController.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E46C6591AB8F2A5004AF769 /* LLBorderlessWindow.m in Sources */,
 				9E30B53E1AB8D5FC001F80CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +360,7 @@
 				9E30B5511AB8D5FC001F80CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
