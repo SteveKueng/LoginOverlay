@@ -13,7 +13,8 @@ from AppKit import *
 
 class AppDelegate(NSObject):
     
-    backdropWindow = IBOutlet()
+    LOWindowController = IBOutlet()
     
     def applicationDidFinishLaunching_(self, sender):
-        self.backdropWindow.showBackdrop()
+        self.LOWindowController.showBackdrop()
+        self.LOWindowController.windowDefault()

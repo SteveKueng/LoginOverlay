@@ -10,12 +10,11 @@
 from objc import YES, NO, IBAction, IBOutlet
 from Foundation import *
 from AppKit import *
-import objc
-import AppKit
 
 class LOWindowController(NSObject):
     backdropWindow = IBOutlet()
-    window = IBOutlet()
+    usernameLabel = IBOutlet()
+    image = IBOutlet()
     
     def showBackdrop(self):       
         # Base all sizes on the screen's dimensions.
@@ -34,6 +33,11 @@ class LOWindowController(NSObject):
         self.backdropWindow.orderFrontRegardless()
         
         NSAnimationContext.beginGrouping()
-        NSAnimationContext.currentContext().setDuration_(0.5)
+        NSAnimationContext.currentContext().setDuration_(1.0)
         self.backdropWindow.animator().setAlphaValue_(1.0)
         NSAnimationContext.endGrouping()
+
+    def windowDefault(self):
+        username = NSFullUserName()
+        self.usernameLabel.setStringValue_(username)
+        self.image.image('/Users/kuengst/Desktop/imac.tiff')
