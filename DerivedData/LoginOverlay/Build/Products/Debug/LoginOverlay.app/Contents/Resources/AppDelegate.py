@@ -16,11 +16,9 @@ class AppDelegate(NSObject):
 
 	LOWindowController = IBOutlet()
 	image = IBOutlet()
-
-	def applicationWillFinishLaunching_(self, sender):
-		self.LOWindowController.windowDefault()
-		self.LOWindowController.showBackdrop()
 		
 	def applicationDidFinishLaunching_(self, notification):
+		self.LOWindowController.windowDefault()
+		self.LOWindowController.showBackdrop()
 		img = NSImage.imageNamed_('emptymacbookpro.tiff')
 		self.image.setImage_(img)

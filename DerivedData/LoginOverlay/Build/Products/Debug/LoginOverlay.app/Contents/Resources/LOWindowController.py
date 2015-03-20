@@ -18,14 +18,12 @@ class LOWindowController(NSObject):
     backdropWindow2 = IBOutlet()
     backdropWindow3 = IBOutlet()
     backdropWindow4 = IBOutlet()
-    backdropWindow5 = IBOutlet()
-    backdropWindow6 = IBOutlet()
 
     usernameLabel = IBOutlet()
     spinner = IBOutlet()
 
     def showBackdrop(self):
-        bd = [self.backdropWindow1, self.backdropWindow2, self.backdropWindow3, self.backdropWindow4, self.backdropWindow5, self.backdropWindow6]
+        bd = [self.backdropWindow1, self.backdropWindow2, self.backdropWindow3, self.backdropWindow4]
         for i,screen in enumerate(NSScreen.screens()):
             if i < len(bd):
                 screenRect = screen.frame()
