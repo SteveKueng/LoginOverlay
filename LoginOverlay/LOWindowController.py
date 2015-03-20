@@ -22,7 +22,7 @@ class LOWindowController(NSObject):
     backdropWindow6 = IBOutlet()
 
     usernameLabel = IBOutlet()
-    image = IBOutlet()
+    spinner = IBOutlet()
 
     def showBackdrop(self):
         bd = [self.backdropWindow1, self.backdropWindow2, self.backdropWindow3, self.backdropWindow4, self.backdropWindow5, self.backdropWindow6]
@@ -48,5 +48,6 @@ class LOWindowController(NSObject):
                 NSAnimationContext.endGrouping()
 
     def windowDefault(self):
+        self.spinner.startAnimation_(self)
         username = NSFullUserName()
         self.usernameLabel.setStringValue_(username)

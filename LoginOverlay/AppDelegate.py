@@ -10,11 +10,17 @@
 from objc import IBOutlet
 from Foundation import *
 from AppKit import *
+import time
 
 class AppDelegate(NSObject):
 
 	LOWindowController = IBOutlet()
+	image = IBOutlet()
 
-	def applicationDidFinishLaunching_(self, sender):
-		self.LOWindowController.showBackdrop()
+	def applicationWillFinishLaunching_(self, sender):
 		self.LOWindowController.windowDefault()
+		self.LOWindowController.showBackdrop()
+		
+	def applicationDidFinishLaunching_(self, notification):
+		img = NSImage.imageNamed_('emptymacbookpro.tiff')
+		self.image.setImage_(img)

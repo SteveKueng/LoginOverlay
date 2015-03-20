@@ -15,6 +15,19 @@
 		9E30B5471AB8D5FC001F80CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5461AB8D5FC001F80CB /* main.py */; };
 		9E30B5491AB8D5FC001F80CB /* AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B5481AB8D5FC001F80CB /* AppDelegate.py */; };
 		9E30B54C1AB8D5FC001F80CB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E30B54A1AB8D5FC001F80CB /* MainMenu.xib */; };
+		9E3349CB1ABC3A6C006B5E26 /* emptygenericdisplay.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349BE1ABC3A6C006B5E26 /* emptygenericdisplay.tiff */; };
+		9E3349CC1ABC3A6C006B5E26 /* emptyimac.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349BF1ABC3A6C006B5E26 /* emptyimac.tiff */; };
+		9E3349CD1ABC3A6C006B5E26 /* emptymacbookair.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C01ABC3A6C006B5E26 /* emptymacbookair.tiff */; };
+		9E3349CE1ABC3A6C006B5E26 /* emptymacbookpro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C11ABC3A6C006B5E26 /* emptymacbookpro.tiff */; };
+		9E3349CF1ABC3A6C006B5E26 /* emptymacmini.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C21ABC3A6C006B5E26 /* emptymacmini.tiff */; };
+		9E3349D01ABC3A6C006B5E26 /* imac.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C31ABC3A6C006B5E26 /* imac.tiff */; };
+		9E3349D11ABC3A6C006B5E26 /* mac book air.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C41ABC3A6C006B5E26 /* mac book air.tiff */; };
+		9E3349D21ABC3A6C006B5E26 /* mac book pro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C51ABC3A6C006B5E26 /* mac book pro.tiff */; };
+		9E3349D31ABC3A6C006B5E26 /* mac mini.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C61ABC3A6C006B5E26 /* mac mini.tiff */; };
+		9E3349D41ABC3A6C006B5E26 /* mac pro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C71ABC3A6C006B5E26 /* mac pro.tiff */; };
+		9E3349D51ABC3A6C006B5E26 /* row0.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C81ABC3A6C006B5E26 /* row0.tiff */; };
+		9E3349D61ABC3A6C006B5E26 /* row1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349C91ABC3A6C006B5E26 /* row1.tiff */; };
+		9E3349D71ABC3A6C006B5E26 /* row2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 9E3349CA1ABC3A6C006B5E26 /* row2.tiff */; };
 		9E46C6591AB8F2A5004AF769 /* LLBorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */; };
 		9E46C65C1AB95659004AF769 /* LOWindowController.py in Resources */ = {isa = PBXBuildFile; fileRef = 9E46C65B1AB95659004AF769 /* LOWindowController.py */; };
 		9E561FF41ABA10CB005997C0 /* StatusWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E561FF11ABA10CB005997C0 /* StatusWindow.m */; };
@@ -36,6 +49,19 @@
 		9E30B5461AB8D5FC001F80CB /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		9E30B5481AB8D5FC001F80CB /* AppDelegate.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
 		9E30B54B1AB8D5FC001F80CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9E3349BE1ABC3A6C006B5E26 /* emptygenericdisplay.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = emptygenericdisplay.tiff; sourceTree = "<group>"; };
+		9E3349BF1ABC3A6C006B5E26 /* emptyimac.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = emptyimac.tiff; sourceTree = "<group>"; };
+		9E3349C01ABC3A6C006B5E26 /* emptymacbookair.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = emptymacbookair.tiff; sourceTree = "<group>"; };
+		9E3349C11ABC3A6C006B5E26 /* emptymacbookpro.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = emptymacbookpro.tiff; sourceTree = "<group>"; };
+		9E3349C21ABC3A6C006B5E26 /* emptymacmini.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = emptymacmini.tiff; sourceTree = "<group>"; };
+		9E3349C31ABC3A6C006B5E26 /* imac.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = imac.tiff; sourceTree = "<group>"; };
+		9E3349C41ABC3A6C006B5E26 /* mac book air.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "mac book air.tiff"; sourceTree = "<group>"; };
+		9E3349C51ABC3A6C006B5E26 /* mac book pro.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "mac book pro.tiff"; sourceTree = "<group>"; };
+		9E3349C61ABC3A6C006B5E26 /* mac mini.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "mac mini.tiff"; sourceTree = "<group>"; };
+		9E3349C71ABC3A6C006B5E26 /* mac pro.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "mac pro.tiff"; sourceTree = "<group>"; };
+		9E3349C81ABC3A6C006B5E26 /* row0.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = row0.tiff; sourceTree = "<group>"; };
+		9E3349C91ABC3A6C006B5E26 /* row1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = row1.tiff; sourceTree = "<group>"; };
+		9E3349CA1ABC3A6C006B5E26 /* row2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = row2.tiff; sourceTree = "<group>"; };
 		9E46C6581AB8F2A5004AF769 /* LLBorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBorderlessWindow.m; sourceTree = "<group>"; };
 		9E46C65A1AB8F2B1004AF769 /* LLBorderlessWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBorderlessWindow.h; sourceTree = "<group>"; };
 		9E46C65B1AB95659004AF769 /* LOWindowController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LOWindowController.py; sourceTree = "<group>"; };
@@ -97,6 +123,7 @@
 		9E30B5371AB8D5FC001F80CB /* LoginOverlay */ = {
 			isa = PBXGroup;
 			children = (
+				9E3349BD1ABC3A6C006B5E26 /* Resources */,
 				9E30B5461AB8D5FC001F80CB /* main.py */,
 				9E46C65B1AB95659004AF769 /* LOWindowController.py */,
 				9E30B5481AB8D5FC001F80CB /* AppDelegate.py */,
@@ -131,6 +158,26 @@
 				9E30B5441AB8D5FC001F80CB /* libpython2.7.dylib */,
 			);
 			name = SharedLibraries;
+			sourceTree = "<group>";
+		};
+		9E3349BD1ABC3A6C006B5E26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E3349BE1ABC3A6C006B5E26 /* emptygenericdisplay.tiff */,
+				9E3349BF1ABC3A6C006B5E26 /* emptyimac.tiff */,
+				9E3349C01ABC3A6C006B5E26 /* emptymacbookair.tiff */,
+				9E3349C11ABC3A6C006B5E26 /* emptymacbookpro.tiff */,
+				9E3349C21ABC3A6C006B5E26 /* emptymacmini.tiff */,
+				9E3349C31ABC3A6C006B5E26 /* imac.tiff */,
+				9E3349C41ABC3A6C006B5E26 /* mac book air.tiff */,
+				9E3349C51ABC3A6C006B5E26 /* mac book pro.tiff */,
+				9E3349C61ABC3A6C006B5E26 /* mac mini.tiff */,
+				9E3349C71ABC3A6C006B5E26 /* mac pro.tiff */,
+				9E3349C81ABC3A6C006B5E26 /* row0.tiff */,
+				9E3349C91ABC3A6C006B5E26 /* row1.tiff */,
+				9E3349CA1ABC3A6C006B5E26 /* row2.tiff */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,11 +231,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3349CB1ABC3A6C006B5E26 /* emptygenericdisplay.tiff in Resources */,
+				9E3349D51ABC3A6C006B5E26 /* row0.tiff in Resources */,
+				9E3349CE1ABC3A6C006B5E26 /* emptymacbookpro.tiff in Resources */,
+				9E3349D61ABC3A6C006B5E26 /* row1.tiff in Resources */,
+				9E3349D01ABC3A6C006B5E26 /* imac.tiff in Resources */,
 				9E30B5471AB8D5FC001F80CB /* main.py in Resources */,
+				9E3349D11ABC3A6C006B5E26 /* mac book air.tiff in Resources */,
+				9E3349D41ABC3A6C006B5E26 /* mac pro.tiff in Resources */,
+				9E3349D21ABC3A6C006B5E26 /* mac book pro.tiff in Resources */,
+				9E3349D71ABC3A6C006B5E26 /* row2.tiff in Resources */,
+				9E3349CD1ABC3A6C006B5E26 /* emptymacbookair.tiff in Resources */,
+				9E3349CF1ABC3A6C006B5E26 /* emptymacmini.tiff in Resources */,
 				9E30B54C1AB8D5FC001F80CB /* MainMenu.xib in Resources */,
 				9E30B5491AB8D5FC001F80CB /* AppDelegate.py in Resources */,
 				9E30B53C1AB8D5FC001F80CB /* InfoPlist.strings in Resources */,
+				9E3349D31ABC3A6C006B5E26 /* mac mini.tiff in Resources */,
 				9E30B5421AB8D5FC001F80CB /* Credits.rtf in Resources */,
+				9E3349CC1ABC3A6C006B5E26 /* emptyimac.tiff in Resources */,
 				9E46C65C1AB95659004AF769 /* LOWindowController.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
