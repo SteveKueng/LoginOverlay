@@ -3,12 +3,12 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
 		<string key="IBDocument.SystemVersion">14C1510</string>
-		<string key="IBDocument.InterfaceBuilderVersion">6249</string>
+		<string key="IBDocument.InterfaceBuilderVersion">6254</string>
 		<string key="IBDocument.AppKitVersion">1344.72</string>
 		<string key="IBDocument.HIToolboxVersion">757.30</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">6249</string>
+			<string key="NS.object.0">6254</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSCustomObject</string>
@@ -1162,9 +1162,10 @@
 						<object class="NSTextField" id="983196454">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{54, 355}, {739, 49}}</string>
+							<string key="NSFrame">{{53, 355}, {739, 49}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="58510974"/>
 							<string key="NSReuseIdentifierKey">_NS:526</string>
 							<string key="NSHuggingPriority">{251, 750}</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1223,7 +1224,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="804355858"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 777}}</string>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -1242,13 +1243,106 @@
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="411266440">
+					<nil key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<string key="NSFrameSize">{246, 69}</string>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSWindowTemplate" id="851305876">
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{283, 305}, {246, 69}}</string>
+				<int key="NSWTFlags">1618482176</int>
+				<string key="NSWindowTitle">borderlessWindow</string>
+				<string key="NSWindowClass">LLBorderlessWindow</string>
+				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<object class="NSView" key="NSWindowView" id="179141573">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{246, 69}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1280, 777}}</string>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSWindowTemplate" id="884690705">
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{283, 305}, {246, 69}}</string>
+				<int key="NSWTFlags">1618482176</int>
+				<string key="NSWindowTitle">borderlessWindow</string>
+				<string key="NSWindowClass">LLBorderlessWindow</string>
+				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<object class="NSView" key="NSWindowView" id="781443523">
+					<reference key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<string key="NSFrameSize">{246, 69}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSWindowTemplate" id="435183725">
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{283, 305}, {246, 69}}</string>
+				<int key="NSWTFlags">1618482176</int>
+				<string key="NSWindowTitle">borderlessWindow</string>
+				<string key="NSWindowClass">LLBorderlessWindow</string>
+				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<object class="NSView" key="NSWindowView" id="961983680">
+					<reference key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<string key="NSFrameSize">{246, 69}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSWindowTemplate" id="612937291">
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{283, 305}, {246, 69}}</string>
+				<int key="NSWTFlags">1618482176</int>
+				<string key="NSWindowTitle">borderlessWindow</string>
+				<string key="NSWindowClass">LLBorderlessWindow</string>
+				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<object class="NSView" key="NSWindowView" id="323570080">
+					<reference key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<string key="NSFrameSize">{246, 69}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
+				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSWindowTemplate" id="585842499">
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{283, 305}, {246, 69}}</string>
+				<int key="NSWTFlags">1618482176</int>
+				<string key="NSWindowTitle">borderlessWindow</string>
+				<string key="NSWindowClass">LLBorderlessWindow</string>
+				<nil key="NSViewClass"/>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<object class="NSView" key="NSWindowView" id="490611662">
+					<reference key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<string key="NSFrameSize">{246, 69}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {2560, 1417}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -1788,14 +1882,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">backdropWindow</string>
-						<reference key="source" ref="362467734"/>
-						<reference key="destination" ref="118640779"/>
-					</object>
-					<int key="connectionID">456</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">usernameLabel</string>
 						<reference key="source" ref="362467734"/>
 						<reference key="destination" ref="983196454"/>
@@ -1809,6 +1895,54 @@
 						<reference key="destination" ref="58510974"/>
 					</object>
 					<int key="connectionID">470</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backdropWindow1</string>
+						<reference key="source" ref="362467734"/>
+						<reference key="destination" ref="118640779"/>
+					</object>
+					<int key="connectionID">473</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backdropWindow2</string>
+						<reference key="source" ref="362467734"/>
+						<reference key="destination" ref="851305876"/>
+					</object>
+					<int key="connectionID">474</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backdropWindow3</string>
+						<reference key="source" ref="362467734"/>
+						<reference key="destination" ref="884690705"/>
+					</object>
+					<int key="connectionID">483</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backdropWindow4</string>
+						<reference key="source" ref="362467734"/>
+						<reference key="destination" ref="435183725"/>
+					</object>
+					<int key="connectionID">484</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backdropWindow5</string>
+						<reference key="source" ref="362467734"/>
+						<reference key="destination" ref="612937291"/>
+					</object>
+					<int key="connectionID">485</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">backdropWindow6</string>
+						<reference key="source" ref="362467734"/>
+						<reference key="destination" ref="585842499"/>
+					</object>
+					<int key="connectionID">486</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2734,6 +2868,71 @@
 						<reference key="object" ref="405809943"/>
 						<reference key="parent" ref="58510974"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">471</int>
+						<reference key="object" ref="851305876"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="179141573"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">472</int>
+						<reference key="object" ref="179141573"/>
+						<reference key="parent" ref="851305876"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">475</int>
+						<reference key="object" ref="884690705"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="781443523"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">476</int>
+						<reference key="object" ref="781443523"/>
+						<reference key="parent" ref="884690705"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">477</int>
+						<reference key="object" ref="435183725"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="961983680"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">478</int>
+						<reference key="object" ref="961983680"/>
+						<reference key="parent" ref="435183725"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">479</int>
+						<reference key="object" ref="612937291"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="323570080"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">480</int>
+						<reference key="object" ref="323570080"/>
+						<reference key="parent" ref="612937291"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">481</int>
+						<reference key="object" ref="585842499"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="490611662"/>
+						</array>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">482</int>
+						<reference key="object" ref="490611662"/>
+						<reference key="parent" ref="585842499"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -2872,6 +3071,46 @@
 				<string key="462.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="466.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="467.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<boolean value="NO" key="471.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="NO" key="471.IBNSWindowAutoPositionCentersVertical"/>
+				<string key="471.IBPersistedLastKnownCanvasPosition">{488, 673.5}</string>
+				<string key="471.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="472.IBNSViewMetadataConstraints" ref="0"/>
+				<reference key="472.IBNSViewMetadataGestureRecognizers" ref="0"/>
+				<string key="472.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="472.IBUserGuides" ref="0"/>
+				<boolean value="NO" key="475.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="NO" key="475.IBNSWindowAutoPositionCentersVertical"/>
+				<string key="475.IBPersistedLastKnownCanvasPosition">{488, 673.5}</string>
+				<string key="475.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="476.IBNSViewMetadataConstraints" ref="0"/>
+				<reference key="476.IBNSViewMetadataGestureRecognizers" ref="0"/>
+				<string key="476.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="476.IBUserGuides" ref="0"/>
+				<boolean value="NO" key="477.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="NO" key="477.IBNSWindowAutoPositionCentersVertical"/>
+				<string key="477.IBPersistedLastKnownCanvasPosition">{488, 673.5}</string>
+				<string key="477.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="478.IBNSViewMetadataConstraints" ref="0"/>
+				<reference key="478.IBNSViewMetadataGestureRecognizers" ref="0"/>
+				<string key="478.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="478.IBUserGuides" ref="0"/>
+				<boolean value="NO" key="479.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="NO" key="479.IBNSWindowAutoPositionCentersVertical"/>
+				<string key="479.IBPersistedLastKnownCanvasPosition">{488, 673.5}</string>
+				<string key="479.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="480.IBNSViewMetadataConstraints" ref="0"/>
+				<reference key="480.IBNSViewMetadataGestureRecognizers" ref="0"/>
+				<string key="480.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="480.IBUserGuides" ref="0"/>
+				<boolean value="NO" key="481.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="NO" key="481.IBNSWindowAutoPositionCentersVertical"/>
+				<string key="481.IBPersistedLastKnownCanvasPosition">{488, 673.5}</string>
+				<string key="481.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="482.IBNSViewMetadataConstraints" ref="0"/>
+				<reference key="482.IBNSViewMetadataGestureRecognizers" ref="0"/>
+				<string key="482.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<reference key="482.IBUserGuides" ref="0"/>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="56.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="57.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2893,7 +3132,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">470</int>
+			<int key="maxID">486</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2928,13 +3167,38 @@
 					<string key="className">LOWindowController</string>
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="backdropWindow">id</string>
+						<string key="backdropWindow1">id</string>
+						<string key="backdropWindow2">id</string>
+						<string key="backdropWindow3">id</string>
+						<string key="backdropWindow4">id</string>
+						<string key="backdropWindow5">id</string>
+						<string key="backdropWindow6">id</string>
 						<string key="image">id</string>
 						<string key="usernameLabel">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="backdropWindow">
-							<string key="name">backdropWindow</string>
+						<object class="IBToOneOutletInfo" key="backdropWindow1">
+							<string key="name">backdropWindow1</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backdropWindow2">
+							<string key="name">backdropWindow2</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backdropWindow3">
+							<string key="name">backdropWindow3</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backdropWindow4">
+							<string key="name">backdropWindow4</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backdropWindow5">
+							<string key="name">backdropWindow5</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="backdropWindow6">
+							<string key="name">backdropWindow6</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="image">

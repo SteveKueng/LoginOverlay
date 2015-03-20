@@ -12,9 +12,9 @@ from Foundation import *
 from AppKit import *
 
 class AppDelegate(NSObject):
-    
-    LOWindowController = IBOutlet()
-    
-    def applicationDidFinishLaunching_(self, sender):
-        self.LOWindowController.showBackdrop()
-        self.LOWindowController.windowDefault()
+
+	LOWindowController = IBOutlet()
+
+	def applicationDidFinishLaunching_(self, sender):
+		self.LOWindowController.showBackdrop()
+		self.LOWindowController.windowDefault()

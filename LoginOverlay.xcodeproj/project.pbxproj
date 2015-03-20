@@ -159,7 +159,7 @@
 		9E30B5261AB8D5FC001F80CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Steve Küng";
 			};
 			buildConfigurationList = 9E30B5291AB8D5FC001F80CB /* Build configuration list for PBXProject "LoginOverlay" */;
@@ -326,6 +326,7 @@
 		9E30B5501AB8D5FC001F80CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginOverlay/LoginOverlay-Prefix.pch";
 				INFOPLIST_FILE = "LoginOverlay/LoginOverlay-Info.plist";
@@ -341,6 +342,7 @@
 		9E30B5511AB8D5FC001F80CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginOverlay/LoginOverlay-Prefix.pch";
 				INFOPLIST_FILE = "LoginOverlay/LoginOverlay-Info.plist";
