@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/sysctl.h>
 
 @interface AppDelegate ()
 
@@ -16,10 +20,18 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    // start the backdropwindows
     [self launchbackdropWindow];
+    
+    // start spinner animation
     [_spinner startAnimation:self];
+    
+    //get username and write to label
     NSString *user = NSFullUserName();
     [_username setStringValue:user];
+    
+    //set image for hardware
+    [_image setImage:[NSImage imageNamed:[self getImage]]];
     
     //set main window
     [_window setCanBecomeVisibleWithoutLogin:true];
@@ -64,6 +76,40 @@
         [win makeKeyAndOrderFront:NSApp];
         
     }
+}
+
+- (NSString *) machineModel {
+    size_t len = 0;
+    sysctlbyname("hw.model", NULL, &len, NULL, 0);
+    
+    if (len)
+    {
+        char *model = malloc(len*sizeof(char));
+        sysctlbyname("hw.model", model, &len, NULL, 0);
+        NSString *model_ns = [NSString stringWithUTF8String:model];
+        free(model);
+        return model_ns;
+    }
+    
+    return @"Just an Apple Computer"; //incase model name can't be read
+}
+
+- (NSString *)getImage {
+    NSString *model = [self machineModel];
+    NSString *img = @"";
+    
+    if ([model hasPrefix:@"MacBookAir"]) {
+        img = @"emptymacbookair.tiff";
+    } else if ([model hasPrefix:@"MacBookPro"]) {
+        img = @"emptymacbookpro.tiff";
+    } else if ([model hasPrefix:@"MacMini"]) {
+        img = @"emptymacmini.tiff";
+    } else if ([model hasPrefix:@"iMac"]) {
+        img = @"emptyimac.tiff";
+    } else {
+        img = @"emptygenericdisplay.tiff";
+    }
+    return img;
 }
 
 @end

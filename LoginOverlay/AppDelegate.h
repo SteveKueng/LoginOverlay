@@ -14,5 +14,6 @@
 @property (weak) IBOutlet NSTextField *username;
 @property(strong) NSMutableArray *myWindowArray;
 @property (strong)NSWindow* myWindow;
+@property (weak) IBOutlet NSImageView *image;
 @end
 

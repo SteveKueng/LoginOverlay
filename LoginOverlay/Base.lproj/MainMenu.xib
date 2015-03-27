@@ -13,6 +13,7 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="image" destination="gP2-3X-TlE" id="OXO-Wb-WBz"/>
                 <outlet property="spinner" destination="Qxg-8K-FsY" id="QFL-3W-LDu"/>
                 <outlet property="username" destination="o25-qX-CgI" id="Rew-u1-6Y6"/>
                 <outlet property="window" destination="ZJH-8d-uQE" id="0rB-H4-HWt"/>
@@ -702,7 +703,7 @@
                     </textField>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gP2-3X-TlE">
                         <rect key="frame" x="252" y="40" width="342" height="342"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="emptymacbookpro" id="nm3-93-XtZ"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" id="nm3-93-XtZ"/>
                     </imageView>
                     <progressIndicator fixedFrame="YES" maxValue="100" displayedWhenStopped="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="Qxg-8K-FsY">
                         <rect key="frame" x="407" y="224" width="32" height="32"/>
@@ -712,7 +713,4 @@
             <point key="canvasLocation" x="182.5" y="-311.5"/>
         </window>
     </objects>
-    <resources>
-        <image name="emptymacbookpro" width="430" height="320"/>
-    </resources>
 </document>
