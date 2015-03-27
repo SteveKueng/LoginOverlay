@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E30B52D1AB8D5FC001F80CB"
+               BlueprintIdentifier = "9E28CA481AC451DA003269BC"
                BuildableName = "LoginOverlay.app"
                BlueprintName = "LoginOverlay"
+               ReferencedContainer = "container:LoginOverlay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9E28CA5B1AC451DA003269BC"
+               BuildableName = "LoginOverlayTests.xctest"
+               BlueprintName = "LoginOverlayTests"
                ReferencedContainer = "container:LoginOverlay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,11 +42,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9E28CA5B1AC451DA003269BC"
+               BuildableName = "LoginOverlayTests.xctest"
+               BlueprintName = "LoginOverlayTests"
+               ReferencedContainer = "container:LoginOverlay.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E30B52D1AB8D5FC001F80CB"
+            BlueprintIdentifier = "9E28CA481AC451DA003269BC"
             BuildableName = "LoginOverlay.app"
             BlueprintName = "LoginOverlay"
             ReferencedContainer = "container:LoginOverlay.xcodeproj">
@@ -51,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E30B52D1AB8D5FC001F80CB"
+            BlueprintIdentifier = "9E28CA481AC451DA003269BC"
             BuildableName = "LoginOverlay.app"
             BlueprintName = "LoginOverlay"
             ReferencedContainer = "container:LoginOverlay.xcodeproj">
@@ -69,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E30B52D1AB8D5FC001F80CB"
+            BlueprintIdentifier = "9E28CA481AC451DA003269BC"
             BuildableName = "LoginOverlay.app"
             BlueprintName = "LoginOverlay"
             ReferencedContainer = "container:LoginOverlay.xcodeproj">
